@@ -1,0 +1,38 @@
+table.customTable {
+    width: 100%;
+    background-color: #EBF1FF;
+    border-collapse: collapse;
+    border-width: 3px;
+    border-color: #CBC4F8;
+    border-style: dashed;
+    color: #000000;
+  }
+  
+   td, th {
+    border-width: 3px;
+    border-color: #CBC4F8;
+    border-style: dashed;
+    padding: 5px;
+  }
+
+  table.customTable td
+  {
+    text-align: center;
+  }
+
+  /* table th:not(:first-child), */
+
+/* The code down below leaves the first child and selects the rest of the children */
+  table td:nth-child(4){
+    background: rgb(161, 249, 252);
+}
+  
+td.Muakkadah {
+    background-color: rgb(107, 173, 249);
+}
+
+td.Witr
+{
+    background-color: aquamarine;
+}
+
