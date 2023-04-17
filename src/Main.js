@@ -1,10 +1,12 @@
 import React from "react";
 import Rakats from './Rakats';
+import './Main.css';
+
 
 function Main(props)
 {
     return(
-    <div className="First-container" >
+    <div className="background" >
         <h2>Rakats in {props.salah}</h2>
         <p>The main aim of creation of this webpage is to give an information regarding the total number of rakats in a {props.salah}.
             The information present in the webpage will help the reader to gain knowledge of the total number of rakats in a {props.salah}.
@@ -12,7 +14,7 @@ function Main(props)
             that needs to be added in the webpage, please do let me know.
         </p>
         <Rakats prayer= "Total prayer"/>
-    </div>
+        </div>
     );
 }
 

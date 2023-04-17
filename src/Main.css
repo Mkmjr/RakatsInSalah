@@ -1,0 +1,48 @@
+
+
+
+.background {
+  min-height: 100vh;
+  display: block;
+  position: relative;
+}
+
+.background::after {
+  content: "";
+  background: url(../public/rakatsinsalahbackground.jpg);
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+
+    /* display: flex;
+    flex-direction: column;
+    /*align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white; 
+  } 
+
+  /* .demowrap {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .demobg {
+    opacity: 0.3;
+    position: absolute;
+    left: 0;
+  top: 0;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+  }
+  
+  .democontent {
+    position: relative;
+  } */
